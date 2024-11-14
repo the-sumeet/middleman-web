@@ -1886,6 +1886,14 @@ html {
   fill: currentColor;
 }
 
+.fill-black {
+  fill: #000;
+}
+
+.fill-white {
+  fill: #fff;
+}
+
 .p-10 {
   padding: 2.5rem;
 }
@@ -1954,5 +1962,11 @@ html {
   .lg\:mx-32 {
     margin-left: 8rem;
     margin-right: 8rem;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .dark\:fill-black {
+    fill: #000;
   }
 }
